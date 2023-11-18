@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #d9afd9;
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#cal{
+    border: 1px solid rgb(95, 91, 91);
+    width: 280px;
+    height: 400px;
+   background-color: rgb(87, 83, 83);
+   
+}
+.btn{
+    border-radius: 1.2rem;
+    margin: 10px;
+    padding-top: 5px;
+    width: 55px;
+    font-size: 20px;
+   height:40px;
+   display: flex;
+   justify-content: center;
+}
+#display{
+    height: 10%;
+    width: 86%;
+    margin: 18px;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+}
